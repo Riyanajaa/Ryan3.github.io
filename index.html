@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>UAS</title>
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="buku.html">Daftar buku</a>
+        <a href="core.php">Spesifikasi</a>
+    </div>
+      
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu </span>
+      </div>
+      <div id="artikel">
+        <article class="kotak">
+          <section>
+            <nav>
+                <a href="#" class="logo">Sistem Informasi Buku sementara</a>
+            </nav>
+            <div class="text-container">
+                <p>2022</p>
+                <p><b>ABOUT WEB</b></p>
+                <p>Web ini dibuat untuk kepentingan pribadi (sementara) </p>
+                <p>Web ini didesain sesederhana mungkin untuk menampilkan data beberapa buku agar 
+                <br>terlihat minimalis dan mudah dipahami
+                <br>Terima kasih sudah berkunjung</p>
+                <br>
+                <b>:')</b>
+            </div>
+            <img alt="model" class="model" src="data:image/jpeg;base64,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">  
+        </section>
+        </article> 
+      </div>
+    
+
+      <footer>
+        Riyan Taufiq Hidayat
+      </footer>
+
+      <script src="slidenav.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+table{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 580px;
+  transition: all 0.3s ease-in-out;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+table :hover{
+  background-color: blue;
+  color: black;
+}

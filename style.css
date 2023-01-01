@@ -1,0 +1,334 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.dropdown-btn{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    transition: 0,3s;
+}
+  
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+    margin-bottom: 10px;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.active {
+    background-color: green;
+    color: white;
+  }
+
+.dropdown-container {
+    display: none;
+    padding-left: 8px;
+}
+
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+#main {
+    transition: 0.5s;
+    padding: 16px;
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+
+}
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#artikel {
+    transition: 0.5s;
+}
+
+
+
+.kotak{
+    width: 97%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+
+}
+
+.headjudul{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.kotakisi{
+    width: 100%;
+}
+
+.kotakisiberita{
+    display: flex;
+    flex-direction: column;
+}
+
+.gambarberita{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.linkberita{
+   width: 30%;
+   border-radius: 5px;
+   position:relative;
+   margin-right: 20px;
+}
+
+.tempatgambar{
+    padding-bottom: 75%;
+    background-size: cover;
+    background-position:center;
+    border-radius: 5px;
+}
+
+.judulberita{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.isijudulberita{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;    
+}
+
+p{
+    font-size: medium;
+    font-weight: normal;
+    text-align: justify;
+    margin-top: 8px;
+}
+
+/*artikel*/
+.headjudulberita{
+    text-align: center;
+    font-size: 30px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    margin-top: 0;
+    
+}
+
+img{
+    float: none;
+    display: block;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 350px;
+    width: auto;
+    
+}
+
+.imageatas{
+    margin-bottom: 20px;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.textberita{
+    font-family:inherit;
+    font-size: 18px;
+}
+
+.textberita p{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+h2{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.gambarartikel{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: fit-content;
+}
+
+.kotaktable{
+    font-size: 15px;
+}
+
+
+table{
+    width: 100%;
+    padding: 1px 0;
+    border-top: 5px solid #eee;
+    background-color: #fafafa;
+}
+
+th{
+    text-align: left;
+    text-transform: uppercase;
+    color: red;
+    width: 110px;
+    font: 16px Arial;
+    padding: 2px 10px;
+    vertical-align: top;
+}
+
+td{
+    vertical-align: top;
+    font: 14px Arial;
+    border-bottom: 2px solid #f0f0f0;
+    padding: 2px 10px;
+    line-height: 16px;
+}
+
+.kolom2{
+    color: #555;
+    font-weight: 700;
+    width: 110px;
+}
+
+.kolom3{
+    position: relative;
+}
+
+.card {
+    background-color: skyblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: left;
+    font-family: arial;
+    position: fixed;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+
+  
+.tengah{
+    text-align: center;
+}
+  
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+/*kotakkanannews*/
+.kotakkanannews{
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    
+}
+
+.card1{
+    background-color: skyblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: left;
+    font-family: arial;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+section{
+    width:100%;
+    height:95vh;
+    position: relative;
+}
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+.model{
+    height: 900x;
+    position: absolute;
+    bottom: 200px;
+    left: 80%;
+    transform: translateX(-70%);
+}
+.logo{
+    font-family:RoadTest;
+    color:#000000;
+    font-size: 50px;
+    font-weight: bold;
+   
+}
+
+footer {
+    clear:both;
+    width:100%;
+    height:auto;
+    text-align:center;
+    margin: 0;
+    border-radius:3px;
+    border-bottom:2px solid black;
+    padding-top:15px;
+    padding-bottom:15px;   
+}
